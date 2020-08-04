@@ -1,2 +1,2 @@
-# resume_site
+# resume
 Website of my resume
