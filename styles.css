@@ -1,0 +1,104 @@
+.quote {
+    font-family: "Lobster";
+    text-align: center;
+    font-size: 2rem;
+    background-color: orange;
+    padding: 3%;
+}
+
+
+#div-box {
+    width: 25%;
+    border: 0.125rem solid silver;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.resume {
+    display: flex;
+}
+
+li {
+    font-family: "Nunito";
+}
+
+
+.award-info {
+    font-size: medium;
+    font-style: italic;
+    color: gray;
+}
+
+
+.skills-list {
+    columns: 2;
+}
+
+.other-info {
+    display: flex;
+}
+
+.course {
+    font-weight: bold;
+}
+
+.course span {
+    font-weight: normal;
+    font-style: italic;
+    color: grey;
+}
+
+
+#phone img, p{
+    display: inline;
+}
+#phone img {
+    width: 0.5rem;
+    height: auto;
+    margin-right: auto;
+}
+
+#email img, p {
+    display: inline;
+}
+
+#email img {
+    width: 0.5rem;
+    height: auto;
+    margin-right: auto;
+    image-resolution: 120dpi;
+}
+
+#linkedin img {
+    width: 5rem;
+    height: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+    image-resolution: 120dpi;
+}
+
+
+
+
+@media only screen and (max-width: 45rem) {
+    
+    .quote {
+        font-size: 1rem;
+        background-color: blue;
+        color: white;
+    }
+
+    #div-box {
+        display: block;
+        width: 95%;
+        margin: 0.3125rem 0.125rem;
+    }
+    
+    .resume, .other-info {
+        display: block;
+    }
+
+    .webname {
+        text-align: center;
+    }
+}
